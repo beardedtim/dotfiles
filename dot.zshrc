@@ -1,5 +1,5 @@
 # Oh My ZSH Config
-# 
+#
 #
 
 # -------------------------------------------------------------------
@@ -11,9 +11,6 @@
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # -------------------------------------------------------------------
 # Custom Functions
@@ -96,6 +93,7 @@ SPACESHIP_RUBY_PREFIX="ruby: "
 SPACESHIP_DOCKER_PREFIX="dckr: "
 SPACESHIP_BATTERY_SHOW=always
 SPACESHIP_CHAR_SYMBOL="λ "
+
 # -------------------------------------------------------------------
 # Aliases
 # -------------------------------------------------------------------
@@ -106,5 +104,27 @@ alias 'mv=mv -i'
 alias 'cp=cp -i'
 alias 'gr=git rebase -i'
 
+alias git=hub
+
 # Git
 alias 'glog=git log --graph --abbrev-commit --pretty=oneline --decorate'
+
+# Easier Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Brew
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+
+# -------------------------------------------------------------------
+# Paths
+# -------------------------------------------------------------------
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
