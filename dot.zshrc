@@ -93,7 +93,11 @@ SPACESHIP_RUBY_PREFIX="ruby: "
 SPACESHIP_DOCKER_PREFIX="dckr: "
 SPACESHIP_BATTERY_SHOW=always
 SPACESHIP_CHAR_SYMBOL="λ "
-
+SPACESHIP_EXIT_CODE_SHOW=true
+SPACESHIP_EXIT_CODE_PREFIX="("
+SPACESHIP_EXIT_CODE_SUFFIX=") "
+SPACESHIP_EXIT_CODE_SYMBOL="✘ "
+SPACESHIP_EXIT_CODE_COLOR="red"
 # -------------------------------------------------------------------
 # Aliases
 # -------------------------------------------------------------------
@@ -128,3 +132,6 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
