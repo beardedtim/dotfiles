@@ -102,13 +102,15 @@ SPACESHIP_EXIT_CODE_COLOR="red"
 # Aliases
 # -------------------------------------------------------------------
 
+# Use hub over git
+alias git=hub
+
 # Safty First!
 alias 'rm=rm -i'
 alias 'mv=mv -i'
 alias 'cp=cp -i'
 alias 'gr=git rebase -i'
 
-alias git=hub
 
 # Git
 alias 'glog=git log --graph --abbrev-commit --pretty=oneline --decorate'
@@ -125,6 +127,10 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 # -------------------------------------------------------------------
 # Paths
 # -------------------------------------------------------------------
+
+# Brew SBin
+export PATH="/usr/local/sbin:$PATH"
+
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
