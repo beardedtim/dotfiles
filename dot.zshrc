@@ -115,6 +115,8 @@ alias 'gr=git rebase -i'
 # Git
 alias 'glog=git log --graph --abbrev-commit --pretty=oneline --decorate'
 
+alias 'gcm=git commit -m'
+
 # Easier Navigation
 alias ..="cd .."
 alias ...="cd ../.."
