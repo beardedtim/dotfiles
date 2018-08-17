@@ -30,6 +30,9 @@ brew install hub
 # sed for JSON data
 brew install jq
 
+# fix my commands for me
+brew install thefuck
+
 brew install ack
 brew install htop
 brew install nmap
