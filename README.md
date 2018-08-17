@@ -12,7 +12,6 @@
 * [Brew](./scripts/brew.sh)
 * [Repo Autosuggest](./scripts/repos.sh)
 * [Oh My ZSH Terminal](./scripts/terminal.sh)
-    - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Config Files
 
