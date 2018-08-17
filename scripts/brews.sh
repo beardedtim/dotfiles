@@ -45,6 +45,8 @@ brew install cowsay
 
 # because Yarn is better than npm
 # --without-node due to NVM handling node
+# This means you must run `node.sh` in
+# order to have nvm handle it
 brew install yarn --without-node
 
 # More Brew-g
