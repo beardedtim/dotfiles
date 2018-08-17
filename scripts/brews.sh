@@ -37,6 +37,11 @@ brew install ack
 brew install htop
 brew install nmap
 brew install watch
+
+# because Yarn is better than npm
+# --without-node due to NVM handling node
+brew install yarn --without-node
+
 # More Brew-g
 brew install cask
 brew cask install iterm2
