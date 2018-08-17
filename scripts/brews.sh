@@ -30,10 +30,19 @@ brew install hub
 # sed for JSON data
 brew install jq
 
+# Helper Pkgs
 brew install ack
 brew install htop
 brew install nmap
 brew install watch
+
+# fix commands
+brew install thefuck
+
+# Funsies
+brew install fortune
+brew install cowsay
+
 # More Brew-g
 brew install cask
 brew cask install iterm2
