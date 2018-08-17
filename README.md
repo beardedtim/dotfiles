@@ -9,7 +9,7 @@
 ### Install Scripts
 
 * [NVM](./scripts/node.sh)
-* [Brew](./scripts/brew.sh)
+* [Brew](./scripts/brews.sh)
 * [Repo Autosuggest](./scripts/repos.sh)
 * [Oh My ZSH Terminal](./scripts/terminal.sh)
 
